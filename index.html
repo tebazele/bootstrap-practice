@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap-Practice</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <style>
+        body.debug .container,
+        body.debug .container-fluid {
+            outline: 2px double blue;
+            outline-offset: -2px;
+        }
+
+        body.debug .row {
+            outline: 2px dashed red;
+            outline-offset: -2px;
+        }
+
+        body.debug [class*="col-"] {
+            outline: 2px dotted forestgreen;
+            outline-offset: -3px;
+        }
+    </style>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.materialdesignicons.com/5.4.55/css/materialdesignicons.min.css">
+    <link href="/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- SECTION cat image -->
+    <div class="abs-right">
+        <img class="small-image" src="/cat_3.png">
+    </div>
+    <!-- SECTION nav bar and big image -->
+    <header class="row">
+        <div class="col-12 bg-image img-fluid">
+            <nav class="row p-3 ps-5 text-light bg-dark bg-opacity-50">
+                <div class="col-8 text-start">
+                    <img src="/awesome-logo.jpeg" class="logo-class">
+                    <h3 class="text-shadow-class p-1">Feed Your Soul</h3>
+                </div>
+                <div class="col-2 p-1">
+                    <h4 class="text-uppercase text-shadow-class">About Us</h4>
+                </div>
+                <div class="col-2 p-1">
+                    <h4 class="text-uppercase text-shadow-class">Start Now</h4>
+                </div>
+            </nav>
+            <section class="row p-5 bg-dark bg-opacity-50">
+                <div class="col-6">
+                    <h1 class="text-light text-shadow-class p-1">Your stomach, <span class="fw-bold">our
+                            recipies.</span>
+                    </h1>
+                    <p class="text-light p-1">Lorem ipsum dolor sit amet consectetur
+                        adipisicing
+                        elit.
+                        Ex
+                        voluptatibus non
+                        tempora odit quaerat beatae ipsum cum nemo? Deserunt ullam explicabo possimus consectetur nihil
+                        corporis a pariatur ducimus facere earum.</p>
+                    <section class="row gap-3 p-3">
+                        <button type="button" class="col-5 btn btn-success">Check out our recipes</button>
+                        <button type="button" class="col-5 btn btn-success">Nutrition facts</button>
+                    </section>
+
+                </div>
+
+                <div class="col-6">
+
+                </div>
+
+            </section>
+        </div>
+
+        <!-- place navbar here -->
+    </header>
+    <main>
+        <section class="row justify-center p-5 pb-0">
+            <div class="col-3"></div>
+            <div class="col-6 p-3 text-center">
+                <h2>How It Works</h2>
+                <p class="pt-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolorem commodi
+                    dolore, nemo.</p>
+            </div>
+            <div class="col-3"></div>
+        </section>
+        <section class="row text-center p-5 justify-content-evenly">
+            <div class="col-3 p-5 card select">
+                <img>
+                <p class="fw-bold">Title</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolorem commodi dolore, nemo.</p>
+            </div>
+            <div class="col-3 p-5 card select">
+                <img>
+                <p class="fw-bold">Title</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolorem commodi dolore, nemo.</p>
+            </div>
+            <div class="col-3 p-5 card select">
+                <img>
+                <p class="fw-bold">Title</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur dolorem commodi dolore, nemo.</p>
+            </div>
+        </section>
+        <section class="row bottom-image img-fluid align-items-center mt-5">
+            <div class="col-6"></div>
+            <div class="col-6 bg-success align-middle p-5">
+                <h1 class="p-5">Let Moody Cat guide you on your journey</h1>
+                <hr>
+                <p class="p-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel quia, odio a error earum
+                    amet similique
+                    recusandae alias. Quidem blanditiis minus dolore deleniti voluptates sed delectus nobis voluptatum
+                    voluptate saepe?</p>
+            </div>
+
+        </section>
+    </main>
+    <footer class="row align-items-center p-3 bg-dark bg-opacity-75 text-light">
+        <div class="col-4">
+            <img class="ps-3 pt-3 logo-class" src="/awesome-logo.jpeg">
+            <p class="ps-3 pb-3">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum cumque rem dolorem
+                tempore.</p>
+        </div>
+
+        <div class="col-2">
+            <h1 class="mdi mdi-food-drumstick text-end"></h1>
+        </div>
+        <div class="col-2">
+            <h1 class="mdi mdi-food-croissant"></h1>
+        </div>
+        <div class="col-4 text-center">
+            <span class="mdi mdi-instagram mdi-48px"></span><i class="mdi mdi-facebook mdi-48px"></i>
+            <p>Made by Me</p>
+        </div>
+
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+        integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>

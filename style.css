@@ -1,0 +1,43 @@
+.bg-image {
+    background-image: url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+    /* min-height: 50vh; */
+    background-size: cover;
+    background-position: center;
+}
+
+.small-image {
+    height: 470px;
+    object-fit: cover;
+}
+
+.bottom-image {
+    background-image: url(https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.abs-right {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    bottom: 0;
+    left: 53%;
+    padding: 1em;
+}
+
+.select:hover {
+    box-shadow: 0px 0px 40px gray;
+}
+
+.logo-class {
+    height: 100px;
+}
+
+.text-shadow-class {
+    text-shadow: 2px 2px gray;
+}
+
+.text-shadow-class-sm {
+    text-shadow: 1px 1px gainsboro;
+}
